@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+openai
+python-dotenv
+torch
+faiss-cpu
+PyMuPDF==1.24.1
+pandas
+numpy<2.0.0
+nltk
+konlpy
+aiohttp
+git+https://github.com/haven-jeon/PyKoSpacing.git
