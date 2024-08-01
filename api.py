@@ -60,11 +60,11 @@ async def chat_message(message: Message, index_service: IndexService = Depends(g
         api_key = response.json().get('api_key')
 
         print(f"세선할당 : {api_key}")
-
+        
         # 요청 본문 생성
         request_body = {
             "user_name": "사용자",
-            "agent_name": "루시아",
+            "agent_name": "사용자",
             "api_key": api_key,
             "prompt": query_model.query,
             "stream": True,
